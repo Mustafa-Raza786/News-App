@@ -1,16 +1,36 @@
-*.iml
-.gradle
-.idea/
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+
+# Gradle files
+.gradle/
+**/build/
+.kotlin/
+
+# Local Android SDK configuration
 local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Generated Android build files
+captures/
+.externalNativeBuild/
+.cxx/
+*.aab
+*.apk
+*.class
+*.dex
+output-metadata.json
+
+# Logs and operating system files
+*.log
+.DS_Store
+
+# Keystore files - do not commit signing credentials
+*.jks
+*.keystore
+
+# Google Services configuration - may contain sensitive credentials
+google-services.json
+
+# Android profiling
+*.hprof
